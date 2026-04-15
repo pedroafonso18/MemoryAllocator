@@ -136,6 +136,30 @@ MemoryAllocator/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MemoryAllocator.dir/build.make CMakeFiles/MemoryAllocator.dir/build
 .PHONY : MemoryAllocator/fast
 
+src/alloc.o: src/alloc.cpp.o
+.PHONY : src/alloc.o
+
+# target to build an object file
+src/alloc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MemoryAllocator.dir/build.make CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.o
+.PHONY : src/alloc.cpp.o
+
+src/alloc.i: src/alloc.cpp.i
+.PHONY : src/alloc.i
+
+# target to preprocess a source file
+src/alloc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MemoryAllocator.dir/build.make CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.i
+.PHONY : src/alloc.cpp.i
+
+src/alloc.s: src/alloc.cpp.s
+.PHONY : src/alloc.s
+
+# target to generate assembly for a file
+src/alloc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MemoryAllocator.dir/build.make CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.s
+.PHONY : src/alloc.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -170,6 +194,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MemoryAllocator"
+	@echo "... src/alloc.o"
+	@echo "... src/alloc.i"
+	@echo "... src/alloc.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MemoryAllocator.dir/link.d"
+  "CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.o"
+  "CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.o.d"
   "CMakeFiles/MemoryAllocator.dir/src/main.cpp.o"
   "CMakeFiles/MemoryAllocator.dir/src/main.cpp.o.d"
   "MemoryAllocator"

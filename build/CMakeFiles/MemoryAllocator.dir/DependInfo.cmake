@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/pedro/Desktop/Projetos/MemoryAllocator/src/alloc.cpp" "CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.o" "gcc" "CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.o.d"
   "/home/pedro/Desktop/Projetos/MemoryAllocator/src/main.cpp" "CMakeFiles/MemoryAllocator.dir/src/main.cpp.o" "gcc" "CMakeFiles/MemoryAllocator.dir/src/main.cpp.o.d"
   "" "MemoryAllocator" "gcc" "CMakeFiles/MemoryAllocator.dir/link.d"
   )
