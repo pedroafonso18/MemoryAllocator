@@ -1,0 +1,3 @@
+/home/pedro/Desktop/Projetos/MemoryAllocator/build/CMakeFiles/MemoryAllocator.dir
+/home/pedro/Desktop/Projetos/MemoryAllocator/build/CMakeFiles/edit_cache.dir
+/home/pedro/Desktop/Projetos/MemoryAllocator/build/CMakeFiles/rebuild_cache.dir
