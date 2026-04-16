@@ -61,6 +61,7 @@ CMakeFiles/MemoryAllocator.dir/src/main.cpp.o: /home/pedro/Desktop/Projetos/Memo
   /usr/include/asm/posix_types.h \
   /usr/include/asm/posix_types_64.h \
   /usr/include/asm/types.h \
+  /usr/include/assert.h \
   /usr/include/bits/atomic_wide_counter.h \
   /usr/include/bits/byteswap.h \
   /usr/include/bits/cpu-set.h \
@@ -79,6 +80,8 @@ CMakeFiles/MemoryAllocator.dir/src/main.cpp.o: /home/pedro/Desktop/Projetos/Memo
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-least.h \
+  /usr/include/bits/stdint-uintn.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
@@ -178,11 +181,13 @@ CMakeFiles/MemoryAllocator.dir/src/main.cpp.o: /home/pedro/Desktop/Projetos/Memo
   /usr/include/c++/15/bits/uses_allocator_args.h \
   /usr/include/c++/15/bits/utility.h \
   /usr/include/c++/15/bits/version.h \
+  /usr/include/c++/15/cassert \
   /usr/include/c++/15/cctype \
   /usr/include/c++/15/cerrno \
   /usr/include/c++/15/clocale \
   /usr/include/c++/15/concepts \
   /usr/include/c++/15/cstddef \
+  /usr/include/c++/15/cstdint \
   /usr/include/c++/15/cstdio \
   /usr/include/c++/15/cstdlib \
   /usr/include/c++/15/cwchar \
@@ -238,6 +243,7 @@ CMakeFiles/MemoryAllocator.dir/src/main.cpp.o: /home/pedro/Desktop/Projetos/Memo
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
@@ -248,7 +254,8 @@ CMakeFiles/MemoryAllocator.dir/src/main.cpp.o: /home/pedro/Desktop/Projetos/Memo
   /usr/include/wchar.h \
   /usr/include/wctype.h \
   /usr/lib/gcc/x86_64-redhat-linux/15/include/stdarg.h \
-  /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h
+  /usr/lib/gcc/x86_64-redhat-linux/15/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/15/include/stdint.h
 
 MemoryAllocator: /lib64/ld-linux-x86-64.so.2 \
   /lib64/libc.so.6 \
@@ -422,9 +429,11 @@ CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.o:
 
 /usr/include/c++/15/bits/invoke.h:
 
-/usr/include/c++/15/bits/streambuf.tcc:
+/usr/include/c++/15/bits/locale_classes.tcc:
 
-/usr/include/bits/types/clockid_t.h:
+/usr/include/c++/15/bits/hash_bytes.h:
+
+/usr/include/assert.h:
 
 /usr/include/asm/types.h:
 
@@ -499,12 +508,6 @@ CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.o:
 /usr/include/bits/environments.h:
 
 /usr/include/c++/15/x86_64-redhat-linux/bits/c++config.h:
-
-/lib64/libm.so.6:
-
-/usr/include/bits/atomic_wide_counter.h:
-
-/usr/include/bits/posix_opt.h:
 
 /usr/include/c++/15/bits/basic_ios.tcc:
 
@@ -617,6 +620,18 @@ CMakeFiles/MemoryAllocator.dir/src/alloc.cpp.o:
 /usr/include/unistd.h:
 
 /usr/include/c++/15/cstdint:
+
+/lib64/libm.so.6:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/15/cassert:
+
+/usr/include/c++/15/bits/streambuf.tcc:
+
+/usr/include/bits/types/clockid_t.h:
 
 /usr/include/features.h:
 
@@ -745,7 +760,3 @@ CMakeFiles/MemoryAllocator.dir/src/main.cpp.o:
 /usr/include/c++/15/bits/charconv.h:
 
 /usr/include/c++/15/bits/functexcept.h:
-
-/usr/include/c++/15/bits/locale_classes.tcc:
-
-/usr/include/c++/15/bits/hash_bytes.h:
